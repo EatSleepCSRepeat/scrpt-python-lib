@@ -93,5 +93,3 @@ def execute_scrpt(cmd, variables=variables):
             print(f"Command '{cmd}' not recognized. Type std.help for a list of commands.")
     except Exception as e:
         print(f"Error: {e}")
-
-execute_scrpt("stdout.display_text \"Hello, world!\"")
